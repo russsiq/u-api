@@ -1,6 +1,6 @@
 # Документация uAPI по модулям
 
-[Источник-1](http://api.ucoz.net/ru/manual) | [Источник-2](https://forum.ucoz.ru/forum/33-29187-1)
+[Источник-1](http://api.ucoz.net/ru/manual) | [Источник-2](https://forum.ucoz.ru/forum/33-29187-1) | [Источник-3](https://www.ucoz.ru/help/)
 
 ## Содержание
 
@@ -21,3 +21,9 @@
 - [Форум](./modules/forum.md)
 - [Фотоальбомы](./modules/photo.md)
 - [FAQ (вопросы/ответы)](./modules/faq.md)
+
+Используемые регулярные выражения:
+```
+^([\w=\(\)\|]+)\s*–
+- `$1` –
+```
